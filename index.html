@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Dice Roll Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .dice {
+            font-size: 100px;
+            margin: 20px;
+            display: inline-block;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .player-info {
+            font-size: 24px;
+        }
+        .details {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <p class="details">Name: Nirmit Rampal</p>
+        <p class="details">Class: D3 CSE</p>
+        <p class="details">URN: 2302729</p>
+        <p class="details">CRN: 2215215</p>
+    </header>
+    <h1>Multiplayer Dice Roll Game</h1>
+    <div id="player1" class="player-info">Player 1: <span id="dice1" class="dice">🎲</span></div>
+    <div id="player2" class="player-info">Player 2: <span id="dice2" class="dice">🎲</span></div>
+    <button id="rollBtn" class="button">Roll Dice</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
